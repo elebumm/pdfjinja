@@ -205,8 +205,7 @@ class PdfJinja(object):
             self.filename,
             "fill_form", "-",
             "output", "-",
-            "dont_ask",
-            "flatten"
+            "dont_ask"
         ]
 
         p = Popen(args, stdin=PIPE, stdout=PIPE, stderr=PIPE)
